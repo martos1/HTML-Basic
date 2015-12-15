@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+label:first-child {
+	display: inline-block;
+	width: 120px;
+	float: left;
+}
+#first-name, #last-name, #phone{
+	width: 120px;
+}
+div{
+	padding: 1px;
+}
+#title, #city{
+	width: 210px;
+}
+#address{
+	width: 300px;
+}
+#postal, #pass, #repass{
+	width: 80px;
+}
+#notes{
+	width: 380px;
+	height: 60px;
+}
+#country, #extension{
+	width: 60px;
+}
+#region{
+	width: 30px;
+}

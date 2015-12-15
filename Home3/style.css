@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+body {
+	width: 80%;
+	margin: 0 auto;
+}
+nav {
+	clear: both;
+	overflow: auto;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	float: left;
+	list-style: none;
+	border: 1px solid;
+	width: 19.7%;
+	text-align: center;
+}
+li:hover {
+	background: #CDECF7;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+}
+a:visited, a:link {
+    color: black;
+}
+#about img {
+	width: 100px;
+	float: left;
+}
+#about p {
+	padding: 5px;
+}
+td {
+	text-align: right;
+}
+label {
+	display: inline-block;
+	width: 90px;
+	padding-bottom: 5px;
+}
+td, th {
+	border: 1px solid;
+}
+#gallery img {
+	width: 300px;
+}
+#gallery div {
+	display: block;
+	float: left;
+}
+article {
+	overflow: auto;
+}
